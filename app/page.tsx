@@ -132,7 +132,7 @@ export default function Component() {
                   </div>
                 </div>
                 <p className="text-muted-foreground">
-                  "Excelente professor, super dinâmico, paciente, tem uma didática incrível. Melhor professor da plataforma sem dúvida."
+                  &quot;Excelente professor, super dinâmico, paciente, tem uma didática incrível. Melhor professor da plataforma sem dúvida.&quot;
                 </p>
               </div>
               <div className="grid gap-4 rounded-lg bg-muted p-6">
@@ -147,7 +147,7 @@ export default function Component() {
                   </div>
                 </div>
                 <p className="text-muted-foreground">
-                  "Este é um review sincero sobre as aulas do Pedro: Provavelmente você pode notar um diferencial já na primeira aula - pois obstante dos outros colegas professores, Pedro teve coragem de me corrigir já na primeira aula, mesmo sabendo que a minha adesão à critica, em primeira mão, poderia me fazer procurar outro profissional, uma vez que o mesmo não me conhecia. Sempre muito pontual em relação ao horário que combinamos; muito divertido, eloquente e sucinto ajeitando o meu pronunciamento em cada palavra. Mais que professor, hoje tenho um amigo que melhorou muito meu vocabulário no inglês."
+                  &quot;Este é um review sincero sobre as aulas do Pedro: Provavelmente você pode notar um diferencial já na primeira aula - pois obstante dos outros colegas professores, Pedro teve coragem de me corrigir já na primeira aula, mesmo sabendo que a minha adesão à critica, em primeira mão, poderia me fazer procurar outro profissional, uma vez que o mesmo não me conhecia. Sempre muito pontual em relação ao horário que combinamos; muito divertido, eloquente e sucinto ajeitando o meu pronunciamento em cada palavra. Mais que professor, hoje tenho um amigo que melhorou muito meu vocabulário no inglês.&quot;
                 </p>
               </div>
 
@@ -163,7 +163,7 @@ export default function Component() {
                   </div>
                 </div>
                 <p className="text-muted-foreground">
-                  "O Pedro é um professor encantador! Seu diferencial é conseguir trazer para as aulas diversos elementos dos mais variados assuntos de forma personalizada para cada aluno. Eu super recomendo a experiência de ter aulas com ele e o parabenizo por sua dedicação e paciência."
+                  &quot;O Pedro é um professor encantador! Seu diferencial é conseguir trazer para as aulas diversos elementos dos mais variados assuntos de forma personalizada para cada aluno. Eu super recomendo a experiência de ter aulas com ele e o parabenizo por sua dedicação e paciência.&quot;
                 </p>
               </div>
             </div>
