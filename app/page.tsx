@@ -9,10 +9,9 @@ import { JSX, SVGProps } from "react"
 
 export default function Component() {
   return (
-    <div className="flex flex-col min-h-[100dvh] p-4">
-      <header className="px-4 text-lg lg:px-6 h-14 flex items-center">
+    <div className="flex flex-col min-h-[100dvh] p-4 text-base">
+      <header className="px-4 lg:px-6 h-14 flex items-center">
         <Link href="#" className="flex items-center justify-center" prefetch={false}>
-
           <span className="font-bold text-xl">Pedro Ernesto</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6 items-center">
@@ -24,7 +23,7 @@ export default function Component() {
               Testemunhos
             </Link>
           </div>
-          <div className="ml-10">
+          <div className="ml-10 hidden lg:flex">
             <Link target="_blank" href="https://preply.com/pt/professor/1977242" className="mr-6 inline-flex h-12 items-center justify-center rounded-md bg-pink-500 px-8 font-medium text-white shadow transition-colors hover:bg-pink-600 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
               Preply
             </Link>
@@ -55,6 +54,16 @@ export default function Component() {
                     Sou um professor de inglês experiente com uma paixão por ajudar alunos de todos os níveis a melhorar as suas
                     competências linguísticas. Deixe-me guiá-lo na sua jornada para a fluência.
                   </p>
+
+                  <div className="lg:hidden block">
+                    <Link target="_blank" href="https://preply.com/pt/professor/1977242" className="mt-4 mb-4 inline-flex w-full h-12 items-center justify-center rounded-md bg-pink-500 px-8 font-medium text-white shadow transition-colors hover:bg-pink-600 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
+                      Preply
+                    </Link>
+
+                    <Link target="_blank" href="https://wa.me/5522996039805" className="inline-flex w-full h-12 items-center justify-center rounded-md bg-green-500 px-8 font-medium text-white shadow transition-colors hover:bg-green-600 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
+                      Whatssap
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
