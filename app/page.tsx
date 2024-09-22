@@ -107,7 +107,7 @@ export default function Component() {
           </motion.span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6 items-center">
-          <div className="hidden lg:flex sm:gap-6 items-center">
+          <div className="text-sm hidden lg:flex sm:gap-6 items-center">
             <Link href="#experience" className="font-medium hover:underline underline-offset-4" prefetch={false}>
               Experiência
             </Link>
@@ -130,7 +130,7 @@ export default function Component() {
         </nav>
       </motion.header>
       <main className="flex-1">
-        <section id="about" className="w-full py-12 md:py-24 lg:py-32 xl:py-48">
+        <section id="about" className="w-full py-12 md:py-24">
           <div className="px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
               <motion.div
