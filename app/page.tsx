@@ -208,7 +208,7 @@ export default function Component() {
                 viewport={{ once: true }}
                 className="grid gap-6"
               >
-                <motion.div variants={fadeIn} className="flex flex-col items-center text-center">
+                <motion.div  className="flex flex-col items-center text-center">
                   <div className="mb-4 rounded-full bg-primary/10 p-4">
                     <PencilIcon className="h-6 w-6 text-primary" />
                   </div>
@@ -217,7 +217,7 @@ export default function Component() {
                     Ofereço sessões de explicações individuais adaptadas às suas necessidades e objectivos específicos.
                   </p>
                 </motion.div>
-                <motion.div variants={fadeIn} className="flex flex-col items-center text-center">
+                <motion.div className="flex flex-col items-center text-center">
                   <div className="mb-4 rounded-full bg-primary/10 p-4">
                     <UsersIcon className="h-6 w-6 text-primary" />
                   </div>
@@ -226,7 +226,7 @@ export default function Component() {
                     Também dou aulas a pequenos grupos, proporcionando um ambiente de aprendizagem colaborativo e envolvente.
                   </p>
                 </motion.div>
-                <motion.div variants={fadeIn} className="flex flex-col items-center text-center">
+                <motion.div className="flex flex-col items-center text-center">
                   <div className="mb-4 rounded-full bg-primary/10 p-4">
                     <LaptopIcon className="h-6 w-6 text-primary" />
                   </div>
